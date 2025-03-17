@@ -235,7 +235,7 @@ export default defineConfig({
             },
             {
               text: '51.基于 react-dnd 实现拖拽排序',
-              link: '/React 通关秘籍/51.基于 react-dnd 实现拖拽排序 .md',
+              link: '/React 通关秘籍/51.基于 react-dnd 实现拖拽排序.md',
             },
             {
               text: '52.react-dnd  实战：拖拽版 TodoList',
