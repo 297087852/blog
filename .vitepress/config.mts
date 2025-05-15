@@ -376,6 +376,29 @@ export default defineConfig({
           ],
         },
       ],
+      'SVG 动画开发实战手册': [
+        {
+          text: 'SVG 动画开发实战手册',
+          items: [
+            {
+              text: '1.关于本小册',
+              link: '/SVG 动画开发实战手册/1.关于本小册.md',
+            },
+            {
+              text: '2.SVG 动画的基本概念',
+              link: '/SVG 动画开发实战手册/2.SVG 动画的基本概念.md',
+            },
+            {
+              text: '3.SVG 动画的基本原理',
+              link: '/SVG 动画开发实战手册/3.SVG 动画的基本原理.md',
+            },
+            {
+              text: '4.SVG 动画的基本实现',
+              link: '/SVG 动画开发实战手册/4.SVG 动画的基本实现.md',
+            },
+          ],
+        },
+      ]
     },
 
     socialLinks: [
