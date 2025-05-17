@@ -14,6 +14,8 @@ export default defineConfig({
         text: '武功秘籍',
         items: [
           { text: 'React 通关秘籍', link: '/React 通关秘籍/1.关于本小册.md' },
+          { text: '深入浅出 SVG', link: '/深入浅出 SVG/1-开篇：神奇的 SVG 技术之旅.md' },
+          { text: 'Web 动画之旅', link: '/Web 动画之旅/1-Web 动画基础：从发展史中了解 Web 动画及动画的作用.md' },
         ],
       },
     ],
@@ -398,7 +400,18 @@ export default defineConfig({
             },
           ],
         },
-      ]
+      ],
+      '深入浅出 SVG': [
+        {
+          text: '深入浅出 SVG',
+          items: [
+            {
+              text: '1.SVG 是什么？',
+              link: '/深入浅出 SVG/1-开篇：神奇的 SVG 技术之旅',
+            },
+          ],
+        },
+      ],
     },
 
     socialLinks: [
