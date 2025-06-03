@@ -50,6 +50,10 @@ function getMarkdownFiles(dir, basePath = '') {
     if ('items' in a && !('items' in b)) return -1;
     if (!('items' in a) && 'items' in b) return 1;
     return a.text.localeCompare(b.text);
+  }).sort((a, b) => {
+    const numA = parseInt(a.text.match(/\d+/)[0]);  
+    const numB = parseInt(b.text.match(/\d+/)[0]);
+    return numA - numB;
   });
 }
 
@@ -71,7 +75,12 @@ function generateSidebar() {
     if (items.length > 0) {
       sidebar[`/${dir}/`] = [{
         text: dir,
-        items: items
+        items: items.map(item => {
+          return {
+            text: item.text,
+            link: '/' + dir + item.link.replace(/\\/g, '/')
+          }
+        })
       }];
     }
   });
