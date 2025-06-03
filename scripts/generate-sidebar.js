@@ -101,10 +101,10 @@ function updateConfig() {
     .replace(/"([^"]+)":/g, "'$1':") // Convert property names to single quotes
     .replace(/"([^"]+)"/g, "'$1'");   // Convert string values to single quotes
   
-  // Use regex to replace the sidebar configuration
+  // Use regex to replace the entire sidebar block (with or without trailing comma)
   const newConfig = configContent.replace(
-    /sidebar:\s*{[^}]*}/s,
-    `sidebar: ${sidebarStr}`
+    /sidebar:\s*{[\s\S]*?}\s*,?/m,
+    `sidebar: ${sidebarStr},`
   );
   
   // Write the updated config back to the file
