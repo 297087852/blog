@@ -16,6 +16,10 @@ export default defineConfig({
         items: [
           { text: 'React 通关秘籍', link: '/React 通关秘籍/1.关于本小册.md' },
           {
+            text: 'Nest 通关秘籍',
+            link: '/Nest 通关秘籍/1. 开篇词.md',
+          },
+          {
             text: '深入浅出 SVG',
             link: '/深入浅出 SVG/1-开篇：神奇的 SVG 技术之旅.md',
           },
@@ -371,6 +375,813 @@ export default defineConfig({
         {
           'text': '85.React 服务端渲染：从 SSR 到 hydrate',
           'link': '/React 通关秘籍/85.React 服务端渲染：从 SSR 到 hydrate.md'
+        }
+      ]
+    }
+  ],
+  '/Nest 通关秘籍/': [
+    {
+      'text': 'Nest 通关秘籍',
+      'items': [
+        {
+          'text': '1. 开篇词',
+          'link': '/Nest 通关秘籍/1. 开篇词.md'
+        },
+        {
+          'text': '2. 给你 5 个学习 Nest 的理由，你会心动么',
+          'link': '/Nest 通关秘籍/2. 给你 5 个学习 Nest 的理由，你会心动么.md'
+        },
+        {
+          'text': '3. Nest 基础概念扫盲',
+          'link': '/Nest 通关秘籍/3. Nest 基础概念扫盲.md'
+        },
+        {
+          'text': '4. 快速掌握 Nest CLI',
+          'link': '/Nest 通关秘籍/4. 快速掌握 Nest CLI.md'
+        },
+        {
+          'text': '5. 5 种 HTTP 数据传输方式',
+          'link': '/Nest 通关秘籍/5. 5 种 HTTP 数据传输方式.md'
+        },
+        {
+          'text': '6. IoC 解决了什么痛点问题？',
+          'link': '/Nest 通关秘籍/6. IoC 解决了什么痛点问题？.md'
+        },
+        {
+          'text': '7. 如何调试 Nest 项目',
+          'link': '/Nest 通关秘籍/7. 如何调试 Nest 项目.md'
+        },
+        {
+          'text': '8. 使用多种 Provider，灵活注入对象',
+          'link': '/Nest 通关秘籍/8. 使用多种 Provider，灵活注入对象.md'
+        },
+        {
+          'text': '9. 全局模块和生命周期',
+          'link': '/Nest 通关秘籍/9. 全局模块和生命周期.md'
+        },
+        {
+          'text': '10. AOP 架构有什么好处？',
+          'link': '/Nest 通关秘籍/10. AOP 架构有什么好处？.md'
+        },
+        {
+          'text': '11. 一网打尽 Nest 全部装饰器',
+          'link': '/Nest 通关秘籍/11. 一网打尽 Nest 全部装饰器.md'
+        },
+        {
+          'text': '12. Nest 如何自定义装饰器',
+          'link': '/Nest 通关秘籍/12. Nest 如何自定义装饰器.md'
+        },
+        {
+          'text': '13. Metadata 和 Reflector',
+          'link': '/Nest 通关秘籍/13. Metadata 和 Reflector.md'
+        },
+        {
+          'text': '14. ExecutionContext：切换不同上下文',
+          'link': '/Nest 通关秘籍/14. ExecutionContext：切换不同上下文.md'
+        },
+        {
+          'text': '15. Module 和 Provider 的循环依赖怎么处理？',
+          'link': '/Nest 通关秘籍/15. Module 和 Provider 的循环依赖怎么处理？.md'
+        },
+        {
+          'text': '16. 如何创建动态模块',
+          'link': '/Nest 通关秘籍/16. 如何创建动态模块.md'
+        },
+        {
+          'text': '17. Nest 和 Express 的关系，如何切到 fastify',
+          'link': '/Nest 通关秘籍/17. Nest 和 Express 的关系，如何切到 fastify.md'
+        },
+        {
+          'text': '18. Nest 的 Middleware ',
+          'link': '/Nest 通关秘籍/18. Nest 的 Middleware .md'
+        },
+        {
+          'text': '19. RxJS 和 Interceptor',
+          'link': '/Nest 通关秘籍/19. RxJS 和 Interceptor.md'
+        },
+        {
+          'text': '20. 内置 Pipe 和自定义 Pipe',
+          'link': '/Nest 通关秘籍/20. 内置 Pipe 和自定义 Pipe.md'
+        },
+        {
+          'text': '21. 如何使用 ValidationPipe 验证 post 请求参数',
+          'link': '/Nest 通关秘籍/21. 如何使用 ValidationPipe 验证 post 请求参数.md'
+        },
+        {
+          'text': '22. 如何自定义 Exception Filter',
+          'link': '/Nest 通关秘籍/22. 如何自定义 Exception Filter.md'
+        },
+        {
+          'text': '23. 图解串一串 Nest 核心概念',
+          'link': '/Nest 通关秘籍/23. 图解串一串 Nest 核心概念.md'
+        },
+        {
+          'text': '24. 接口如何实现多版本共存',
+          'link': '/Nest 通关秘籍/24. 接口如何实现多版本共存.md'
+        },
+        {
+          'text': '25. Express 如何使用 multer 实现文件上传',
+          'link': '/Nest 通关秘籍/25. Express 如何使用 multer 实现文件上传.md'
+        },
+        {
+          'text': '26. Nest 如何使用 multer 实现文件上传',
+          'link': '/Nest 通关秘籍/26. Nest 如何使用 multer 实现文件上传.md'
+        },
+        {
+          'text': '27. 图书管理系统：需求分析和原型图',
+          'link': '/Nest 通关秘籍/27. 图书管理系统：需求分析和原型图.md'
+        },
+        {
+          'text': '28. 图书管理系统：用户模块后端开发',
+          'link': '/Nest 通关秘籍/28. 图书管理系统：用户模块后端开发.md'
+        },
+        {
+          'text': '29. 图书管理系统：图书模块后端开发',
+          'link': '/Nest 通关秘籍/29. 图书管理系统：图书模块后端开发.md'
+        },
+        {
+          'text': '30. 图书管理系统：用户模块前端开发',
+          'link': '/Nest 通关秘籍/30. 图书管理系统：用户模块前端开发.md'
+        },
+        {
+          'text': '31. 图书管理系统：图书模块前端开发--图书搜索',
+          'link': '/Nest 通关秘籍/31. 图书管理系统：图书模块前端开发--图书搜索.md'
+        },
+        {
+          'text': '32. 图书管理系统：图书模块前端开发--图书增删改',
+          'link': '/Nest 通关秘籍/32. 图书管理系统：图书模块前端开发--图书增删改.md'
+        },
+        {
+          'text': '33. 图书管理系统：项目总结',
+          'link': '/Nest 通关秘籍/33. 图书管理系统：项目总结.md'
+        },
+        {
+          'text': '34. 大文件分片上传',
+          'link': '/Nest 通关秘籍/34. 大文件分片上传.md'
+        },
+        {
+          'text': '35. 最完美的 OSS 上传方案',
+          'link': '/Nest 通关秘籍/35. 最完美的 OSS 上传方案.md'
+        },
+        {
+          'text': '36. Nest 里如何打印日志？',
+          'link': '/Nest 通关秘籍/36. Nest 里如何打印日志？.md'
+        },
+        {
+          'text': '37. 为什么 Node 里要用 Winston 打印日志？',
+          'link': '/Nest 通关秘籍/37. 为什么 Node 里要用 Winston 打印日志？.md'
+        },
+        {
+          'text': '38. Nest 集成日志框架 Winston',
+          'link': '/Nest 通关秘籍/38. Nest 集成日志框架 Winston.md'
+        },
+        {
+          'text': '39. 通过 Desktop 学 Docker 也太简单了',
+          'link': '/Nest 通关秘籍/39. 通过 Desktop 学 Docker 也太简单了.md'
+        },
+        {
+          'text': '40. 你的第一个 Dockerfile',
+          'link': '/Nest 通关秘籍/40. 你的第一个 Dockerfile.md'
+        },
+        {
+          'text': '41. Nest 项目如何编写 Dockerfile',
+          'link': '/Nest 通关秘籍/41. Nest 项目如何编写 Dockerfile.md'
+        },
+        {
+          'text': '42. 提升 Dockerfile 水平的 5 个技巧',
+          'link': '/Nest 通关秘籍/42. 提升 Dockerfile 水平的 5 个技巧.md'
+        },
+        {
+          'text': '43. Docker 是怎么实现的？',
+          'link': '/Nest 通关秘籍/43. Docker 是怎么实现的？.md'
+        },
+        {
+          'text': '44. 为什么 Node 应用要用 PM2 来跑？',
+          'link': '/Nest 通关秘籍/44. 为什么 Node 应用要用 PM2 来跑？.md'
+        },
+        {
+          'text': '45. 快速入门 MySQL',
+          'link': '/Nest 通关秘籍/45. 快速入门 MySQL.md'
+        },
+        {
+          'text': '46. SQL 查询语句的所有语法和函数',
+          'link': '/Nest 通关秘籍/46. SQL 查询语句的所有语法和函数.md'
+        },
+        {
+          'text': '47. 一对一、join 查询、级联方式',
+          'link': '/Nest 通关秘籍/47. 一对一、join 查询、级联方式.md'
+        },
+        {
+          'text': '48. 一对多、多对多关系的表设计',
+          'link': '/Nest 通关秘籍/48. 一对多、多对多关系的表设计.md'
+        },
+        {
+          'text': '49. 子查询和 EXISTS',
+          'link': '/Nest 通关秘籍/49. 子查询和 EXISTS.md'
+        },
+        {
+          'text': '50. SQL 综合练习',
+          'link': '/Nest 通关秘籍/50. SQL 综合练习.md'
+        },
+        {
+          'text': '51. MySQL 的事务和隔离级别',
+          'link': '/Nest 通关秘籍/51. MySQL 的事务和隔离级别.md'
+        },
+        {
+          'text': '52. MySQL 的视图、存储过程和函数',
+          'link': '/Nest 通关秘籍/52. MySQL 的视图、存储过程和函数.md'
+        },
+        {
+          'text': '53. 使用 Node 操作 MySQL 的两种方式',
+          'link': '/Nest 通关秘籍/53. 使用 Node 操作 MySQL 的两种方式.md'
+        },
+        {
+          'text': '54. 快速掌握 TypeORM',
+          'link': '/Nest 通关秘籍/54. 快速掌握 TypeORM.md'
+        },
+        {
+          'text': '55. TypeORM 一对一的映射和关联 CRUD',
+          'link': '/Nest 通关秘籍/55. TypeORM 一对一的映射和关联 CRUD.md'
+        },
+        {
+          'text': '56. TypeORM 一对多的映射和关联 CRUD',
+          'link': '/Nest 通关秘籍/56. TypeORM 一对多的映射和关联 CRUD.md'
+        },
+        {
+          'text': '57. TypeORM 多对多的映射和关联 CRUD',
+          'link': '/Nest 通关秘籍/57. TypeORM 多对多的映射和关联 CRUD.md'
+        },
+        {
+          'text': '58. 在 Nest 里集成 TypeORM',
+          'link': '/Nest 通关秘籍/58. 在 Nest 里集成 TypeORM.md'
+        },
+        {
+          'text': '59. TypeORM 如何保存任意层级的关系？',
+          'link': '/Nest 通关秘籍/59. TypeORM 如何保存任意层级的关系？.md'
+        },
+        {
+          'text': '60. 为什么生产环境要用 TypeORM 的 migration 迁移功能？',
+          'link': '/Nest 通关秘籍/60. 为什么生产环境要用 TypeORM 的 migration 迁移功能？.md'
+        },
+        {
+          'text': '61. Nest 项目里如何使用 TypeORM 迁移',
+          'link': '/Nest 通关秘籍/61. Nest 项目里如何使用 TypeORM 迁移.md'
+        },
+        {
+          'text': '62. 如何动态读取不同环境的配置？',
+          'link': '/Nest 通关秘籍/62. 如何动态读取不同环境的配置？.md'
+        },
+        {
+          'text': '63. 快速入门 Redis',
+          'link': '/Nest 通关秘籍/63. 快速入门 Redis.md'
+        },
+        {
+          'text': '64. 在 Nest 里操作 Redis',
+          'link': '/Nest 通关秘籍/64. 在 Nest 里操作 Redis.md'
+        },
+        {
+          'text': '65. 为什么不用 cache-manager 操作 Redis？',
+          'link': '/Nest 通关秘籍/65. 为什么不用 cache-manager 操作 Redis？.md'
+        },
+        {
+          'text': '66. 两种登录状态保存方式：JWT、Session',
+          'link': '/Nest 通关秘籍/66. 两种登录状态保存方式：JWT、Session.md'
+        },
+        {
+          'text': '67. Nest 里实现 Session 和 JWT',
+          'link': '/Nest 通关秘籍/67. Nest 里实现 Session 和 JWT.md'
+        },
+        {
+          'text': '68. MySQL + TypeORM + JWT 实现登录注册',
+          'link': '/Nest 通关秘籍/68. MySQL + TypeORM + JWT 实现登录注册.md'
+        },
+        {
+          'text': '69. 基于 ACL 实现权限控制',
+          'link': '/Nest 通关秘籍/69. 基于 ACL 实现权限控制.md'
+        },
+        {
+          'text': '70. 基于 RBAC 实现权限控制',
+          'link': '/Nest 通关秘籍/70. 基于 RBAC 实现权限控制.md'
+        },
+        {
+          'text': '71. 基于 access_token 和 refresh_token 实现登录状态无感刷新',
+          'link': '/Nest 通关秘籍/71. 基于 access_token 和 refresh_token 实现登录状态无感刷新.md'
+        },
+        {
+          'text': '72. 单 token 无限续期，实现登录状态无感刷新',
+          'link': '/Nest 通关秘籍/72. 单 token 无限续期，实现登录状态无感刷新.md'
+        },
+        {
+          'text': '73. 使用 passport 做身份认证',
+          'link': '/Nest 通关秘籍/73. 使用 passport 做身份认证.md'
+        },
+        {
+          'text': '74. passport 实现 GitHub 三方账号登录',
+          'link': '/Nest 通关秘籍/74. passport 实现 GitHub 三方账号登录.md'
+        },
+        {
+          'text': '75. passport 实现 Google 三方账号登录',
+          'link': '/Nest 通关秘籍/75. passport 实现 Google 三方账号登录.md'
+        },
+        {
+          'text': '76. 为什么要使用 Docker Compose ？',
+          'link': '/Nest 通关秘籍/76. 为什么要使用 Docker Compose ？.md'
+        },
+        {
+          'text': '77. Docker 容器通信的最简单方式：桥接网络',
+          'link': '/Nest 通关秘籍/77. Docker 容器通信的最简单方式：桥接网络.md'
+        },
+        {
+          'text': '78. Docker 支持重启策略，是否还需要 PM2',
+          'link': '/Nest 通关秘籍/78. Docker 支持重启策略，是否还需要 PM2.md'
+        },
+        {
+          'text': '79. 快速掌握 Nginx 的 2 大核心用法',
+          'link': '/Nest 通关秘籍/79. 快速掌握 Nginx 的 2 大核心用法.md'
+        },
+        {
+          'text': '80. 基于 Nginx 实现灰度系统',
+          'link': '/Nest 通关秘籍/80. 基于 Nginx 实现灰度系统.md'
+        },
+        {
+          'text': '81. 基于 Redis 实现分布式 session',
+          'link': '/Nest 通关秘籍/81. 基于 Redis 实现分布式 session.md'
+        },
+        {
+          'text': '82. Redis + 高德地图，实现附近的充电宝',
+          'link': '/Nest 通关秘籍/82. Redis + 高德地图，实现附近的充电宝.md'
+        },
+        {
+          'text': '83. 用 Swagger 自动生成 api 文档',
+          'link': '/Nest 通关秘籍/83. 用 Swagger 自动生成 api 文档.md'
+        },
+        {
+          'text': '84. 如何灵活创建 DTO',
+          'link': '/Nest 通关秘籍/84. 如何灵活创建 DTO.md'
+        },
+        {
+          'text': '85. class- validator 的内置装饰器，如何自定义装饰器',
+          'link': '/Nest 通关秘籍/85. class- validator 的内置装饰器，如何自定义装饰器.md'
+        },
+        {
+          'text': '86.  序列化 Entity，你不需要 VO 对象',
+          'link': '/Nest 通关秘籍/86.  序列化 Entity，你不需要 VO 对象.md'
+        },
+        {
+          'text': '87. 手写序列化 Entity 的拦截器',
+          'link': '/Nest 通关秘籍/87. 手写序列化 Entity 的拦截器.md'
+        },
+        {
+          'text': '88. 使用 compodoc 生成文档',
+          'link': '/Nest 通关秘籍/88. 使用 compodoc 生成文档.md'
+        },
+        {
+          'text': '89. Node 如何发邮件？',
+          'link': '/Nest 通关秘籍/89. Node 如何发邮件？.md'
+        },
+        {
+          'text': '90. 实现基于邮箱验证码的登录',
+          'link': '/Nest 通关秘籍/90. 实现基于邮箱验证码的登录.md'
+        },
+        {
+          'text': '91. 定时任务 + Redis 实现阅读量计数',
+          'link': '/Nest 通关秘籍/91. 定时任务 + Redis 实现阅读量计数.md'
+        },
+        {
+          'text': '92. Nest 的 3 种定时任务',
+          'link': '/Nest 通关秘籍/92. Nest 的 3 种定时任务.md'
+        },
+        {
+          'text': '93. Nest 里如何实现事件通信？',
+          'link': '/Nest 通关秘籍/93. Nest 里如何实现事件通信？.md'
+        },
+        {
+          'text': '94. HttpModule + pinyin 实现天气预报查询服务',
+          'link': '/Nest 通关秘籍/94. HttpModule + pinyin 实现天气预报查询服务.md'
+        },
+        {
+          'text': '95. 如何记录请求日志',
+          'link': '/Nest 通关秘籍/95. 如何记录请求日志.md'
+        },
+        {
+          'text': '96. 短链服务？自己写一个',
+          'link': '/Nest 通关秘籍/96. 短链服务？自己写一个.md'
+        },
+        {
+          'text': '97. Nest 实现 Server Sent Event 数据推送',
+          'link': '/Nest 通关秘籍/97. Nest 实现 Server Sent Event 数据推送.md'
+        },
+        {
+          'text': '98. 用 minio 自己搭一个 OSS 服务',
+          'link': '/Nest 通关秘籍/98. 用 minio 自己搭一个 OSS 服务.md'
+        },
+        {
+          'text': '99. 前端如何直传文件到 Minio',
+          'link': '/Nest 通关秘籍/99. 前端如何直传文件到 Minio.md'
+        },
+        {
+          'text': '100. 基于 sharp 实现 gif 压缩工具',
+          'link': '/Nest 通关秘籍/100. 基于 sharp 实现 gif 压缩工具.md'
+        },
+        {
+          'text': '101. 大文件如何实现流式下载？',
+          'link': '/Nest 通关秘籍/101. 大文件如何实现流式下载？.md'
+        },
+        {
+          'text': '102. Puppeteer 实现爬虫，爬取 BOSS 直聘全部前端岗位',
+          'link': '/Nest 通关秘籍/102. Puppeteer 实现爬虫，爬取 BOSS 直聘全部前端岗位.md'
+        },
+        {
+          'text': '103. 实现扫二维码登录',
+          'link': '/Nest 通关秘籍/103. 实现扫二维码登录.md'
+        },
+        {
+          'text': '104. Nest 的 REPL 模式',
+          'link': '/Nest 通关秘籍/104. Nest 的 REPL 模式.md'
+        },
+        {
+          'text': '105. 实现 Excel 导入导出',
+          'link': '/Nest 通关秘籍/105. 实现 Excel 导入导出.md'
+        },
+        {
+          'text': '106. 如何用代码动态生成 PPT',
+          'link': '/Nest 通关秘籍/106. 如何用代码动态生成 PPT.md'
+        },
+        {
+          'text': '107. 如何拿到服务器 CPU、内存、磁盘状态',
+          'link': '/Nest 通关秘籍/107. 如何拿到服务器 CPU、内存、磁盘状态.md'
+        },
+        {
+          'text': '108. Nest 如何实现国际化？',
+          'link': '/Nest 通关秘籍/108. Nest 如何实现国际化？.md'
+        },
+        {
+          'text': '109. 会议室预订系统：需求分析和原型图',
+          'link': '/Nest 通关秘籍/109. 会议室预订系统：需求分析和原型图.md'
+        },
+        {
+          'text': '110. 会议室预订系统：技术方案和数据库设计',
+          'link': '/Nest 通关秘籍/110. 会议室预订系统：技术方案和数据库设计.md'
+        },
+        {
+          'text': '111. 会议室预订系统：用户管理模块--用户注册',
+          'link': '/Nest 通关秘籍/111. 会议室预订系统：用户管理模块--用户注册.md'
+        },
+        {
+          'text': '112. 会议室预订系统：用户管理模块--配置抽离、登录认证鉴权',
+          'link': '/Nest 通关秘籍/112. 会议室预订系统：用户管理模块--配置抽离、登录认证鉴权.md'
+        },
+        {
+          'text': '113. 会议室预订系统：用户管理模块-- interceptor、修改信息接口',
+          'link': '/Nest 通关秘籍/113. 会议室预订系统：用户管理模块-- interceptor、修改信息接口.md'
+        },
+        {
+          'text': '114. 会议室预订系统：用户管理模块--用户列表和分页查询',
+          'link': '/Nest 通关秘籍/114. 会议室预订系统：用户管理模块--用户列表和分页查询.md'
+        },
+        {
+          'text': '115. 会议室预订系统：用户管理模块-- swagger 接口文档',
+          'link': '/Nest 通关秘籍/115. 会议室预订系统：用户管理模块-- swagger 接口文档.md'
+        },
+        {
+          'text': '116. 会议室预订系统：用户管理模块-- 用户端登录注册页面',
+          'link': '/Nest 通关秘籍/116. 会议室预订系统：用户管理模块-- 用户端登录注册页面.md'
+        },
+        {
+          'text': '117. 会议室预订系统：用户管理模块-- 用户端信息修改页面',
+          'link': '/Nest 通关秘籍/117. 会议室预订系统：用户管理模块-- 用户端信息修改页面.md'
+        },
+        {
+          'text': '118. 会议室预订系统：用户管理模块-- 头像上传',
+          'link': '/Nest 通关秘籍/118. 会议室预订系统：用户管理模块-- 头像上传.md'
+        },
+        {
+          'text': '119. 会议室预订系统：用户管理模块-- 管理端用户列表页面',
+          'link': '/Nest 通关秘籍/119. 会议室预订系统：用户管理模块-- 管理端用户列表页面.md'
+        },
+        {
+          'text': '120. 会议室预订系统：用户管理模块-- 管理端信息修改页面',
+          'link': '/Nest 通关秘籍/120. 会议室预订系统：用户管理模块-- 管理端信息修改页面.md'
+        },
+        {
+          'text': '121. 会议室预订系统：会议室管理模块-后端开发',
+          'link': '/Nest 通关秘籍/121. 会议室预订系统：会议室管理模块-后端开发.md'
+        },
+        {
+          'text': '122. 会议室预订系统：会议室管理模块-管理端前端开发',
+          'link': '/Nest 通关秘籍/122. 会议室预订系统：会议室管理模块-管理端前端开发.md'
+        },
+        {
+          'text': '123. 会议室预订系统：会议室管理模块-用户端前端开发',
+          'link': '/Nest 通关秘籍/123. 会议室预订系统：会议室管理模块-用户端前端开发.md'
+        },
+        {
+          'text': '124. 会议室预订系统：预定管理模块-后端开发',
+          'link': '/Nest 通关秘籍/124. 会议室预订系统：预定管理模块-后端开发.md'
+        },
+        {
+          'text': '125. 会议室预订系统：预定管理模块-管理端前端开发',
+          'link': '/Nest 通关秘籍/125. 会议室预订系统：预定管理模块-管理端前端开发.md'
+        },
+        {
+          'text': '126. 会议室预订系统：预定管理模块-用户端前端开发',
+          'link': '/Nest 通关秘籍/126. 会议室预订系统：预定管理模块-用户端前端开发.md'
+        },
+        {
+          'text': '127. 会议室预订系统：统计管理模块-后端开发',
+          'link': '/Nest 通关秘籍/127. 会议室预订系统：统计管理模块-后端开发.md'
+        },
+        {
+          'text': '128. 会议室预订系统：统计管理模块-前端开发',
+          'link': '/Nest 通关秘籍/128. 会议室预订系统：统计管理模块-前端开发.md'
+        },
+        {
+          'text': '129. 会议室预订系统：后端项目部署到阿里云',
+          'link': '/Nest 通关秘籍/129. 会议室预订系统：后端项目部署到阿里云.md'
+        },
+        {
+          'text': '130. 会议室预订系统：前端项目部署到阿里云',
+          'link': '/Nest 通关秘籍/130. 会议室预订系统：前端项目部署到阿里云.md'
+        },
+        {
+          'text': '131. 会议室预定系统：用 migration 初始化表和数据',
+          'link': '/Nest 通关秘籍/131. 会议室预定系统：用 migration 初始化表和数据.md'
+        },
+        {
+          'text': '132. 会议室预定系统：文件上传 OSS',
+          'link': '/Nest 通关秘籍/132. 会议室预定系统：文件上传 OSS.md'
+        },
+        {
+          'text': '133. 会议室预定系统：Google 账号登录后端开发',
+          'link': '/Nest 通关秘籍/133. 会议室预定系统：Google 账号登录后端开发.md'
+        },
+        {
+          'text': '134. 会议室预定系统：Google 账号登录前端开发',
+          'link': '/Nest 通关秘籍/134. 会议室预定系统：Google 账号登录前端开发.md'
+        },
+        {
+          'text': '135. 会议室预定系统：后端代码优化',
+          'link': '/Nest 通关秘籍/135. 会议室预定系统：后端代码优化.md'
+        },
+        {
+          'text': '136. 会议室预定系统：集成日志框架 winston',
+          'link': '/Nest 通关秘籍/136. 会议室预定系统：集成日志框架 winston.md'
+        },
+        {
+          'text': '137. 会议室预定系统：前端代码优化',
+          'link': '/Nest 通关秘籍/137. 会议室预定系统：前端代码优化.md'
+        },
+        {
+          'text': '138. 会议室预定系统：全部功能测试',
+          'link': '/Nest 通关秘籍/138. 会议室预定系统：全部功能测试.md'
+        },
+        {
+          'text': '139. 会议室预定系统：项目总结',
+          'link': '/Nest 通关秘籍/139. 会议室预定系统：项目总结.md'
+        },
+        {
+          'text': '140. Nest 如何创建微服务？',
+          'link': '/Nest 通关秘籍/140. Nest 如何创建微服务？.md'
+        },
+        {
+          'text': '141. Nest 的 Monorepo 和 Library',
+          'link': '/Nest 通关秘籍/141. Nest 的 Monorepo 和 Library.md'
+        },
+        {
+          'text': '142. 用 Etcd 实现微服务配置中心和注册中心',
+          'link': '/Nest 通关秘籍/142. 用 Etcd 实现微服务配置中心和注册中心.md'
+        },
+        {
+          'text': '143. Nest 集成 Etcd 做注册中心、配置中心',
+          'link': '/Nest 通关秘籍/143. Nest 集成 Etcd 做注册中心、配置中心.md'
+        },
+        {
+          'text': '144. 用 Nacos 实现微服务配置中心和注册中心',
+          'link': '/Nest 通关秘籍/144. 用 Nacos 实现微服务配置中心和注册中心.md'
+        },
+        {
+          'text': '145. 基于 gRPC 实现跨语言的微服务通信',
+          'link': '/Nest 通关秘籍/145. 基于 gRPC 实现跨语言的微服务通信.md'
+        },
+        {
+          'text': '146. 快速入门 ORM 框架 Prisma ',
+          'link': '/Nest 通关秘籍/146. 快速入门 ORM 框架 Prisma .md'
+        },
+        {
+          'text': '147. Prisma 的全部命令',
+          'link': '/Nest 通关秘籍/147. Prisma 的全部命令.md'
+        },
+        {
+          'text': '148. Prisma 的全部 schema 语法',
+          'link': '/Nest 通关秘籍/148. Prisma 的全部 schema 语法.md'
+        },
+        {
+          'text': '149. Primsa Client 单表 CRUD 的全部 api',
+          'link': '/Nest 通关秘籍/149. Primsa Client 单表 CRUD 的全部 api.md'
+        },
+        {
+          'text': '150. Prisma Client 多表 CRUD 的全部 api',
+          'link': '/Nest 通关秘籍/150. Prisma Client 多表 CRUD 的全部 api.md'
+        },
+        {
+          'text': '151. 在 Nest 里集成 Prisma',
+          'link': '/Nest 通关秘籍/151. 在 Nest 里集成 Prisma.md'
+        },
+        {
+          'text': '152. 为什么前端监控系统要用 RabbitMQ？',
+          'link': '/Nest 通关秘籍/152. 为什么前端监控系统要用 RabbitMQ？.md'
+        },
+        {
+          'text': '153. 基于 Redis 实现关注关系',
+          'link': '/Nest 通关秘籍/153. 基于 Redis 实现关注关系.md'
+        },
+        {
+          'text': '154. 基于 Redis 实现各种排行榜（周榜、月榜、年榜）',
+          'link': '/Nest 通关秘籍/154. 基于 Redis 实现各种排行榜（周榜、月榜、年榜）.md'
+        },
+        {
+          'text': '155. 考试系统：需求分析',
+          'link': '/Nest 通关秘籍/155. 考试系统：需求分析.md'
+        },
+        {
+          'text': '156. 考试系统：技术方案和数据库设计',
+          'link': '/Nest 通关秘籍/156. 考试系统：技术方案和数据库设计.md'
+        },
+        {
+          'text': '157. 考试系统：微服务、Lib 拆分',
+          'link': '/Nest 通关秘籍/157. 考试系统：微服务、Lib 拆分.md'
+        },
+        {
+          'text': '158. 考试系统；用户注册',
+          'link': '/Nest 通关秘籍/158. 考试系统；用户注册.md'
+        },
+        {
+          'text': '159. 考试系统：用户登录、修改密码',
+          'link': '/Nest 通关秘籍/159. 考试系统：用户登录、修改密码.md'
+        },
+        {
+          'text': '160. 考试系统：考试微服务',
+          'link': '/Nest 通关秘籍/160. 考试系统：考试微服务.md'
+        },
+        {
+          'text': '161. 考试系统：登录、注册页面',
+          'link': '/Nest 通关秘籍/161. 考试系统：登录、注册页面.md'
+        },
+        {
+          'text': '162. 考试系统：修改密码、试卷列表页面',
+          'link': '/Nest 通关秘籍/162. 考试系统：修改密码、试卷列表页面.md'
+        },
+        {
+          'text': '163. 考试系统：新增试卷、回收站',
+          'link': '/Nest 通关秘籍/163. 考试系统：新增试卷、回收站.md'
+        },
+        {
+          'text': '164. 考试系统：试卷编辑器',
+          'link': '/Nest 通关秘籍/164. 考试系统：试卷编辑器.md'
+        },
+        {
+          'text': '165. 考试系统：试卷回显、预览、保存',
+          'link': '/Nest 通关秘籍/165. 考试系统：试卷回显、预览、保存.md'
+        },
+        {
+          'text': '166. 考试系统：答卷微服务',
+          'link': '/Nest 通关秘籍/166. 考试系统：答卷微服务.md'
+        },
+        {
+          'text': '167. 考试系统：答题页面',
+          'link': '/Nest 通关秘籍/167. 考试系统：答题页面.md'
+        },
+        {
+          'text': '168. 考试系统：自动判卷',
+          'link': '/Nest 通关秘籍/168. 考试系统：自动判卷.md'
+        },
+        {
+          'text': '169. 考试系统：分析微服务、排行榜页面',
+          'link': '/Nest 通关秘籍/169. 考试系统：分析微服务、排行榜页面.md'
+        },
+        {
+          'text': '170. 考试系统：整体测试',
+          'link': '/Nest 通关秘籍/170. 考试系统：整体测试.md'
+        },
+        {
+          'text': '171. 考试系统：项目总结',
+          'link': '/Nest 通关秘籍/171. 考试系统：项目总结.md'
+        },
+        {
+          'text': '172. 用 Node.js 手写 WebSocket 协议',
+          'link': '/Nest 通关秘籍/172. 用 Node.js 手写 WebSocket 协议.md'
+        },
+        {
+          'text': '173. Nest 开发 WebSocket 服务',
+          'link': '/Nest 通关秘籍/173. Nest 开发 WebSocket 服务.md'
+        },
+        {
+          'text': '174. 基于 Socket.io 的 room 实现群聊',
+          'link': '/Nest 通关秘籍/174. 基于 Socket.io 的 room 实现群聊.md'
+        },
+        {
+          'text': '175. 聊天室：需求分析和原型图',
+          'link': '/Nest 通关秘籍/175. 聊天室：需求分析和原型图.md'
+        },
+        {
+          'text': '176. 聊天室：技术选型和数据库设计',
+          'link': '/Nest 通关秘籍/176. 聊天室：技术选型和数据库设计.md'
+        },
+        {
+          'text': '177. 聊天室：用户注册',
+          'link': '/Nest 通关秘籍/177. 聊天室：用户注册.md'
+        },
+        {
+          'text': '178. 聊天室：用户登录',
+          'link': '/Nest 通关秘籍/178. 聊天室：用户登录.md'
+        },
+        {
+          'text': '179. 聊天室：修改密码、修改信息',
+          'link': '/Nest 通关秘籍/179. 聊天室：修改密码、修改信息.md'
+        },
+        {
+          'text': '180. 聊天室：好友列表、发送好友申请',
+          'link': '/Nest 通关秘籍/180. 聊天室：好友列表、发送好友申请.md'
+        },
+        {
+          'text': '181. 聊天室：创建聊天室、加入群聊',
+          'link': '/Nest 通关秘籍/181. 聊天室：创建聊天室、加入群聊.md'
+        },
+        {
+          'text': '182. 聊天室：登录、注册页面开发',
+          'link': '/Nest 通关秘籍/182. 聊天室：登录、注册页面开发.md'
+        },
+        {
+          'text': '183. 聊天室：修改密码、信息页面开发',
+          'link': '/Nest 通关秘籍/183. 聊天室：修改密码、信息页面开发.md'
+        },
+        {
+          'text': '184. 聊天室：头像上传',
+          'link': '/Nest 通关秘籍/184. 聊天室：头像上传.md'
+        },
+        {
+          'text': '185. 聊天室：好友∕群聊列表页面',
+          'link': '/Nest 通关秘籍/185. 聊天室：好友∕群聊列表页面.md'
+        },
+        {
+          'text': '186. 聊天室：添加好友弹窗、通知页面',
+          'link': '/Nest 通关秘籍/186. 聊天室：添加好友弹窗、通知页面.md'
+        },
+        {
+          'text': '187. 聊天室：聊天功能后端开发',
+          'link': '/Nest 通关秘籍/187. 聊天室：聊天功能后端开发.md'
+        },
+        {
+          'text': '188. 聊天室：聊天功能前端开发',
+          'link': '/Nest 通关秘籍/188. 聊天室：聊天功能前端开发.md'
+        },
+        {
+          'text': '189. 聊天室：一对一聊天',
+          'link': '/Nest 通关秘籍/189. 聊天室：一对一聊天.md'
+        },
+        {
+          'text': '190. 聊天室：创建群聊、进入群聊',
+          'link': '/Nest 通关秘籍/190. 聊天室：创建群聊、进入群聊.md'
+        },
+        {
+          'text': '191. 聊天室：发送表情、图片、文件',
+          'link': '/Nest 通关秘籍/191. 聊天室：发送表情、图片、文件.md'
+        },
+        {
+          'text': '192. 聊天室：收藏',
+          'link': '/Nest 通关秘籍/192. 聊天室：收藏.md'
+        },
+        {
+          'text': '193. 聊天室：全部功能测试',
+          'link': '/Nest 通关秘籍/193. 聊天室：全部功能测试.md'
+        },
+        {
+          'text': '194. 聊天室：项目总结',
+          'link': '/Nest 通关秘籍/194. 聊天室：项目总结.md'
+        },
+        {
+          'text': '195. MongoDB 快速入门',
+          'link': '/Nest 通关秘籍/195. MongoDB 快速入门.md'
+        },
+        {
+          'text': '196. 使用 mongoose 操作 MongoDB 数据库',
+          'link': '/Nest 通关秘籍/196. 使用 mongoose 操作 MongoDB 数据库.md'
+        },
+        {
+          'text': '197. GraphQL 快速入门',
+          'link': '/Nest 通关秘籍/197. GraphQL 快速入门.md'
+        },
+        {
+          'text': '198. Nest 开发 GraphQL 服务：实现 CRUD',
+          'link': '/Nest 通关秘籍/198. Nest 开发 GraphQL 服务：实现 CRUD.md'
+        },
+        {
+          'text': '199. GraphQL + Primsa + React 实现 TodoList',
+          'link': '/Nest 通关秘籍/199. GraphQL + Primsa + React 实现 TodoList.md'
+        },
+        {
+          'text': '200. 如何调试 Nest 源码？',
+          'link': '/Nest 通关秘籍/200. 如何调试 Nest 源码？.md'
         }
       ]
     }

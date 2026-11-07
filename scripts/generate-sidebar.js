@@ -4,6 +4,7 @@ const path = require('path');
 // 配置：只生成这些文件夹的 sidebar
 const includeDirs = [
   'React 通关秘籍',
+  'Nest 通关秘籍',
   'SVG 动画开发实战手册',
   '深入浅出 SVG',
   'Web 动画之旅'
@@ -100,12 +101,15 @@ function updateConfig() {
   const sidebarStr = JSON.stringify(sidebar, null, 2)
     .replace(/"([^"]+)":/g, "'$1':") // Convert property names to single quotes
     .replace(/"([^"]+)"/g, "'$1'");   // Convert string values to single quotes
-  
-  // Use regex to replace the entire sidebar block (with or without trailing comma)
-  const newConfig = configContent.replace(
-    /sidebar:\s*{[\s\S]*?}\s*,?/m,
-    `sidebar: ${sidebarStr},`
-  );
+
+  // 从 sidebar: 开始，到最后 sidebar 对象结束（config 末尾的 "  },\n})" ）整体替换
+  const start = configContent.indexOf('sidebar:');
+  const endMarker = '\n  },\n})';
+  const end = configContent.lastIndexOf(endMarker);
+  if (start === -1 || end === -1) {
+    throw new Error('未找到 sidebar 配置块，请检查 config.mts 结构');
+  }
+  const newConfig = configContent.slice(0, start) + 'sidebar: ' + sidebarStr + ',' + configContent.slice(end);
   
   // Write the updated config back to the file
   fs.writeFileSync(configPath, newConfig);
