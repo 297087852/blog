@@ -5,6 +5,7 @@ export default defineConfig({
   base: '/blog/',
   title: 'My Awesome Project',
   description: 'A VitePress Site',
+  ignoreDeadLinks: [/^https?:\/\/localhost(:\d+)?(\/|$)/],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
